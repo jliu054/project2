@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'project2.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
-if ON_HEROKU == True:
+if ON_HEROKU == '1':
 
     # Parse database configuration from $DATABASE_URL
 
